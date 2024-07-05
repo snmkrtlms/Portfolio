@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senem Kurtulmus - Portfolio </title>
+    <link rel="icon" href="./user-astronaut-solid.svg" type="image/x-icon"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylesScreen.css">
+    <script src="js/script.js" defer></script>
+    <script src="js/TitleAnimation.js" defer></script>
+    <script src="js/DayNight.js" defer></script>
+</head>
+<body>
+    <div id="loader">
+        <div class="ring"></div>
+        <span class="loading">Bienvenue ! <i class="fa-solid fa-user-astronaut"></i></span>
+    </div>
+
+    <div id="content" style="display: none;">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home"><i class="fa-solid fa-code"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color: var(--text-color); stop-opacity: 1" />
+                            </linearGradient>
+                        </defs>
+                        <path stroke="url(#gradient)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 8h24M4 16h24M4 24h24"/>
+                    </svg>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" id="about-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <input id="toggle-theme" type="checkbox" class="checkbox">
+                        <label for="toggle-theme" class="checkbox-label" aria-label="Toggle Theme">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <span class="ball"></span>
+                        </label>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home" class="masthead">
+        <div class="container">
+            <div class="mx-auto text-center">
+                <h1 id="nom">Senem Kurtulmus</h1>
+                <p id="text" class="lead">Web Application Developer Junior </p>
+                <div id="icons">
+                    <a href="https://github.com/snmkrtlms" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/senem-kurtulmus/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="./Senem_KURTULMUS.pdf" target="_blank"><i class="fa-solid fa-file"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="button"><i class="fa-solid fa-arrow-down"></i></a>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center about-container">
+                    <div>
+                        <div class="titre">
+                            <div class="word mb-4">
+                                <span>À</span>
+                                <span></span>
+                                <span>P</span>
+                                <span>R</span>
+                                <span>O</span>
+                                <span>P</span>
+                                <span>O</span>
+                                <span>S</span>
+                            </div>
+                        </div>
+
+                        <div class="description">
+                            <p>Après avoir évolué dans le domaine de la santé dentaire, j'ai entrepris une transition vers l'informatique. 
+                                Ma formation initiale m'a dotée de solides compétences en résolution de problèmes, 
+                                en communication et en travail d'équipe. Aujourd'hui, 
+                                je suis déterminée à exploiter ces compétences pour exceller dans le domaine de la technologie. 
+                                Mon objectif est de fusionner mes connaissances antérieures avec 
+                                mes nouvelles compétences en informatique pour créer des solutions innovantes dans un domaine en constante évolution.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container mt-4 mb-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading">Compétences</h2>
+                    <div class="contain-comp">
+                        <div class='competence'>
+                            <div class='comp' id='comp-node'>NODE.JS</div>
+                            <div class='comp' id='comp-apache'>BOOTSTRAP</div>
+                            <div class='comp' id='comp-js'>JavaScript</div>
+                            <div class='comp' id='comp-php'>PHP</div>
+                            <div class='comp' id='comp-symfony'>SYMFONY</div>
+                            <div class='comp' id='comp-apache'>APACHE</div>
+                            <div class='comp' id='comp-jq'>JQuery</div>
+                            <div class='comp' id='comp-json'>JSON</div>
+                            <div class='comp' id='comp-ajax'>AJAX</div>
+                            <div class='comp' id='comp-csharp'>C#</div>
+                            <div class='comp' id='comp-asp'>ASP.NET</div>
+                            <div class='comp' id='comp-apache'>FIREBASE</div>
+                            <div class='comp' id='comp-server'>SQL SERVER</div>
+                            <div class='comp' id='comp-python'>MYSQL</div>
+                            <div class='comp' id='comp-apache'>MONGODB</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5 mt-5">
+        <div class="container mt-5">
+            <h2 class="section-heading mb-5">Projets</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">HygieMatch</h5>
+                            <p class="card-text">Matchmaking entre hygiénistes et cabinets dentaires.</p>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button href="#" class="btn btn-project mx-2 disabled-link "><i class="fab fa-youtube"></i> Vidéo</button>
+                                <a href="https://hygiematch.be" target="_blank" class="btn btn-project mx-2"><i class="fab fa-github"></i> Code source</a>
+                            </div>
+                            <hr>
+                            <div class="pb-3">
+                                <span class="badge bg-dark text-light">Node.js</span>
+                                <span class="badge bg-dark text-light">MongoDB</span>
+                                <span class="badge bg-dark text-light">VPS</span>
+                                <br>
+                                <span class="badge bg-light text-dark">EJS: 50.8%</span>
+                                <span class="badge bg-light text-dark">JavaScript: 46.7%</span>
+                                <span class="badge bg-light text-dark">CSS: 2.5%</span>
+                            </div>
+                            <p class="card-text">
+                                <small class="text-muted">Mis à jour le 28 juin 2024</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">SmileCare</h5>
+                            <p class="card-text">Suivi dentaire personnalisé.</p>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="afficherVideo('./images/SmileCare.mp4')" class="btn btn-project mx-2"><i class="fab fa-youtube"></i> Vidéo</button>
+                                <a href="https://github.com/snmkrtlms/ProjetSymfonySnm" target="_blank" class="btn btn-project mx-2"><i class="fab fa-github"></i> Code source</a>
+                            </div>
+                            <hr>
+                            <div class="pb-3">
+                                <span class="badge bg-dark text-light">Symfony</span>
+                                <span class="badge bg-dark text-light">MySQL</span>
+                                <br>
+                                <span class="badge bg-light text-dark">PHP: 54.4%</span>
+                                <span class="badge bg-light text-dark">Twig: 23.1%</span>
+                                <span class="badge bg-light text-dark">CSS: 18.6%</span>
+                                <span class="badge bg-light text-dark">Javascript: 3.4  %</span>
+                            </div>
+                            <p class="card-text">
+                                <small class="text-muted">Mis à jour le 8 avril 2024</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-6 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz-IT</h5>
+                            <p class="card-text">Quiz IT fait pendant l'Hackathon.</p>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="afficherVideo('./images/Quiz.mp4')" class="btn btn-project mx-2"><i class="fab fa-youtube"></i> Vidéo</button>
+                                <a href="https://github.com/snmkrtlms/Quizz-IT" target="_blank" class="btn btn-project mx-2"><i class="fab fa-github"></i> Code source</a>
+                            </div>
+                            <hr>
+                            <div class="pb-3">
+                                <span class="badge bg-dark text-light"></span>
+                                <br>
+                                <span class="badge bg-light text-dark">JavaScript: 46.5%</span>
+                                <span class="badge bg-light text-dark">CSS: 24.3%</span>
+                                <span class="badge bg-light text-dark">HTML: 15.3%</span>
+                                <span class="badge bg-light text-dark">SCSS: 13.9%</span>
+                            </div>
+                            <p class="card-text">
+                                <small class="text-muted">Mis à jour le 21 mars 2024</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Films IMDb</h5>
+                            <p class="card-text">Top 1000 films IMDb.</p>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="afficherVideo('./images/Movie.mp4')" class="btn btn-project mx-2"><i class="fab fa-youtube"></i> Vidéo</button>
+                                <a href="https://github.com/snmkrtlms/MovieProject" target="_blank" class="btn btn-project mx-2"><i class="fab fa-github"></i> Code source</a>
+                            </div>
+                            <hr>
+                            <div class="pb-3">
+                                <span class="badge bg-dark text-light">Node.js</span>
+                                <span class="badge bg-dark text-light">MongoDB</span>
+                                <br>
+                                <span class="badge bg-light text-dark">JavaScript: 60.2%</span>
+                                <span class="badge bg-light text-dark">HTML: 20.5%</span>
+                                <span class="badge bg-light text-dark">CSS: 19.3%</span>
+                            </div>
+                            <p class="card-text">
+                                <small class="text-muted">Mis à jour le 24 avril 2024</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Snake Game</h5>
+                            <p class="card-text">Jeu de serpent classique.</p>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="afficherVideo('./images/SnakeGame.mp4')" class="btn btn-project mx-2"><i class="fab fa-youtube"></i> Vidéo</button>
+                                <a href="https://github.com/snmkrtlms/SnakeGame" target="_blank" class="btn btn-project mx-2"><i class="fab fa-github"></i> Code source</a>
+                            </div>
+                            <hr>
+                            <div class="pb-3">
+                                <span class="badge bg-dark text-light"></span>
+                                <br>
+                                <span class="badge bg-light text-dark">JavaScript: 82.7%</span>
+                                <span class="badge bg-light text-dark">HTML: 11.3%</span>
+                                <span class="badge bg-light text-dark">CSS: 6%</span>
+                            </div>
+                            <p class="card-text">
+                                <small class="text-muted">Mis à jour le 13 février 2024</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-5">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculatrice</h5>
+                            <p class="card-text">Description du projet 2.</p>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="afficherVideo('./images/Calculator.mp4')" class="btn btn-project mx-2"><i class="fab fa-youtube"></i> Vidéo</button>
+                                <a href="https://github.com/snmkrtlms/CalculatorJS" target="_blank" class="btn btn-project mx-2"><i class="fab fa-github"></i> Code source</a>
+                            </div>
+                            <hr>
+                            <div class="pb-3">
+                                <span class="badge bg-dark text-light"></span>
+                                <br>
+                                <span class="badge bg-light text-dark">JavaScript: 50.6 %</span>
+                                <span class="badge bg-light text-dark">SCSS: 46.2 %</span>
+                                <span class="badge bg-light text-dark">HTML: 3 %</span>
+                            </div>
+                            <p class="card-text">
+                                <small class="text-muted">Mis à jour le 13 février 2024</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    
+    <div id="popup-container" class="popup-container">
+        <div id="popup-content" class="popup-content">
+            <p> </p>
+            <button onclick="fermerPopup()"></button>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 mt-5 mb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h2 class="section-heading mb-4">Contactez-moi</h2>
+                    <p class="text-muted mb-4">N'hésitez pas à me contacter pour plus d'informations <i class="fa-solid fa-user-astronaut"></i></p>
+                    <form id="contactForm" action="https://formspree.io/f/myyrzrdr" method="post">
+                        <div class="form-group mb-4">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Nom" required>
+                        </div>
+                        <div class="form-group mb-4">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group mb-4">
+                            <textarea class="form-control" id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer Section -->
+    <footer id="footer" class="py-4">
+        <div class="container text-center">
+            <p class="text-muted mb-0">© 2024 Senem Kurtulmus - Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</div>
+
+    <button id="scrollToTopBtn" class="scrollToTopBtn hidden-until-loaded">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <div id="social-icons" class="hidden-until-loaded">
+        <a href="https://github.com/snmkrtlms" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/senem-kurtulmus/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="./Senem_KURTULMUS.pdf" target="_blank"><i class="fa-solid fa-file"></i></a>
+    </div>
+</body> 
+</html>

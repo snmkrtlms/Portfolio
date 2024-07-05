@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+#nom{
+    font-size: 38px;
+}
+
+#text{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.word, .section-heading {
+    font-size: 35px;
+}
+
+.description{
+    font-size: 14px;
+}
+
+.comp{
+    width: 80px;
+    height: 40px;
+    font-size: 13px;
+}
+
+.checkbox-label{
+    margin-left: 10px !important;
+}
+
+}
