@@ -2,7 +2,7 @@
 
 Personal portfolio of **Senem Kurtulmus**, Full-Stack Web Developer (PHP, Node.js, WordPress), built after a career change from dental healthcare to IT.
 
-**Live site:** https://snmkrtlms.github.io/Portfolio/
+**Live site:** https://snmkrtlms.github.io/
 
 ## Highlights
 
@@ -47,11 +47,11 @@ Then open http://localhost:8000. Using a local server (rather than opening `inde
 - **Texts:** all visible texts live in the `copy` object at the top of `script.js` (`fr` and `en`) and are linked to the HTML through `data-i18n` attributes.
 - **Projects:** add a new `<article class="project">` inside `#projectTrack` in `index.html`, with its image or video in `images/` (2:1 ratio, 720×360 px for videos).
 - **Cache:** after changing `style.css` or `script.js`, bump the `?v=` number in `index.html` so visitors get the new version.
-- **404 page:** it uses absolute paths starting with `/Portfolio/`; update them if the site moves to another address or a custom domain.
+- **404 page:** it uses absolute paths starting with `/`; update them if the site moves to another address or a custom domain.
 
 ## Contact
 
-Use the contact form on the [portfolio](https://snmkrtlms.github.io/Portfolio/#contact) or find me on [LinkedIn](https://www.linkedin.com/in/senem-kurtulmus) and [GitHub](https://github.com/snmkrtlms).
+Use the contact form on the [portfolio](https://snmkrtlms.github.io/#contact) or find me on [LinkedIn](https://www.linkedin.com/in/senem-kurtulmus) and [GitHub](https://github.com/snmkrtlms).
 
 ## License
 

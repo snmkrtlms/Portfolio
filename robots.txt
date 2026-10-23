@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://snmkrtlms.github.io/sitemap.xml
